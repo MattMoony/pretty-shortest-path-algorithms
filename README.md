@@ -9,5 +9,3 @@ and "pretty-searching-algorithms", besides the fact
 that I learned some new sorting/searching techniques.
 
 I'm hoping this project will have the same effect on me.
-
- - MattMoony
