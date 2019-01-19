@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Shortest path visualization</title>
+
+    <link rel="stylesheet" type="text/css" href="style/index.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="heading_div">
+        <h1 id="title">Visualizing Shortest Path Algorithms</h1>
+        <h3 id="subtitle">by M00nyL1ght</h3>
+    </div>
+
+    <canvas id="main" width="700" height="700"></canvas>
+
+    <div id="mouse_coords">P(<span id="mouse_x">x</span>, <span id="mouse_y">y</span>)</div>
+    <div id="brush_type_back">
+        <div id="brush_type">Start</div>
+    </div>
+
+    <script src="scripts/algos/astar.js"></script>
+
+    <script src="scripts/globs.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
